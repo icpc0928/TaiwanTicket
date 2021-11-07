@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大樂透</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+</head>
+<body>
+    <div class="container"  style="max-width: 600px; margin-top: 50px" >
+<!--        <img src="../static/img/img_bigLotto.jpg">-->
+        <h2 class="modal-header">大樂透</h2>
+        <br>
+        <br>
+        <div class="card card-body bg-light">
+            <p class="text-center"><a href="./bigLottoRandom.html" th:href="@{/bigLotto/getRandomNum}" class="btn btn-primary ">隨選號碼</a></p>
+            <br>
+            <p class="text-center"><a href="./bigLottoSelfSelected.html" th:href="@{/getSelfNum}" class="btn btn-primary ">自選號碼</a></p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../static/js/jquery-3.6.0.js" th:src="@{/js/jquery-3.6.0.js}"></script>
+    <script src="../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+</body>
+</html>
